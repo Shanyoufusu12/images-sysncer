@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/hhyo/archery:v1.10.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/archery:v1.10.0
+        skopeo copy docker://docker.io/intelcczoo/horizontal_fl:tdx1.5 docker://registry.cn-hangzhou.aliyuncs.com/horizontal_fl-images/horizontal_fl:tdx1.5
