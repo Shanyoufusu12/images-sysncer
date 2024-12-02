@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://ghcr.io/chaos-mesh/chaos-daemon:v2.7.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/chaos-daemon:v2.7.0
+        skopeo copy docker://ghcr.io/chaos-mesh/chaos-dashboard:v2.7.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/chaos-dashboard:v2.7.0
