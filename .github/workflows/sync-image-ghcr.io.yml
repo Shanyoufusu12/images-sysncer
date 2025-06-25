@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://quay.io/keycloak/keycloak:25.0.7 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/keycloak:25.0.7
+        skopeo copy docker://mcr.microsoft.com/mssql/server:2019-latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/Sqlserver:2019-latest
