@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/jenkins/jenkins:2.515 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/jenkins:2.515
+        skopeo copy docker://docker.io/jenkins/jenkins:2.517-jdk17 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/jenkins:2.517-jdk17
