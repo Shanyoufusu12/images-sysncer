@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/nginx:latest
+        skopeo copy docker://docker.io/semitechnologies/weaviate:1.19.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/weaviate:1.19.0
