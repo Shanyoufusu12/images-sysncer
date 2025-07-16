@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://container-registry.oracle.com/database/free:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/free:latest
+        skopeo copy docker://quay.io/coreos/etcd:v3.5.5 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/etcd:v3.5.5
