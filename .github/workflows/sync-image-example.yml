@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/milvusdb/milvus:v2.5.0-beta docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/milvus:v2.5.0-beta
+        skopeo copy docker://docker.io/opensearchproject/opensearch:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/opensearch:latest
