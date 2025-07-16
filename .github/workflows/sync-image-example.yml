@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/oceanbase-ce:4.3.3.0-100000142024101215
+        skopeo copy docker://container-registry.oracle.com/database/free:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/free:latest
