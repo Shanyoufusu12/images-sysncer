@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://quay.io/coreos/etcd:v3.5.5 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/etcd:v3.5.5
+        skopeo copy docker://docker.io/minio/minio:RELEASE.2023-03-20T20-16-18Z docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/minio:RELEASE.2023-03-20T20-16-18Z
