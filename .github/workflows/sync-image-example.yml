@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/opengauss/opengauss:7.0.0-RC1 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/opengauss:7.0.0-RC1
+        skopeo copy docker://docker.io/myscale/myscaledb:1.6.4 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/myscaledb:1.6.4
