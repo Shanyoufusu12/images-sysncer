@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/opensearchproject/opensearch-dashboards:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/opensearch-dashboards:latest
+        skopeo copy docker://docker.io/opengauss/opengauss:7.0.0-RC1 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/opengauss:7.0.0-RC1
