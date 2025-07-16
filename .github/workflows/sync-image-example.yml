@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/ubuntu/squid:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/squid:latest
+        skopeo copy docker://docker.io/certbot/certbot docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/certbot
