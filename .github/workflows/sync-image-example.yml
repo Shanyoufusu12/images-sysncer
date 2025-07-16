@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://ghcr.io/chroma-core/chroma:0.5.20 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/chroma:0.5.20
+        skopeo copy docker://quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/oceanbase-ce:4.3.3.0-100000142024101215
