@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://downloads.unstructured.io/unstructured-io/unstructured-api:latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/unstructured-api:latest
+        skopeo copy docker://doxker.io/infiniflow/ragflow:v0.18.0-slim docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/ragflow:v0.18.0-slim
