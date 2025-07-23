@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/arm64v8/openjdk:8u141 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/openjdk_arm64v8:8u141
+        skopeo copy docker://docker.io/moby/buildkit:buildx-stable-1 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/buildkit:buildx-stable-1
