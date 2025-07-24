@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/dyrnq/rocketmq:4.9.7 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/rocketmq:4.9.7-arm
+        skopeo copy --override-arch arm64 docker://docker.io/dyrnq/rocketmq:4.9.7 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/rocketmq:4.9.7-arm64 
