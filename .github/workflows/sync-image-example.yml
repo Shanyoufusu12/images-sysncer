@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/arm64v8/openjdk:8u121-alpine docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/openjdk_arm64:8u121-alpine
+        skopeo copy docker://docker.io/eclipse-temurin:8-jdk-alpine docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/eclipse-temurin:8-jdk-alpine
