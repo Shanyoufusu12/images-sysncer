@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch arm64 docker://docker.io/mysql:8.0.43 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/mysql:8.0.43-arm64 
+        skopeo copy --override-arch arm64 docker://docker.io/jenkins/jenkins:2.516.1-jdk17 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/jenkins:arm64-2.516.1-jdk17
