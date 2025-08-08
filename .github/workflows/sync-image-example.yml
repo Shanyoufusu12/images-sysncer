@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/apache/skywalking-oap-server:10.2.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/skywalking-oap-server:10.2.0
+        skopeo copy docker://docker.io/apache/apache/skywalking-ui:10.2.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/skywalking-ui:10.2.0
