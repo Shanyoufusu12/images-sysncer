@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/pingcap/coredns:v0.2.1 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/coredns:v0.2.1
+        skopeo copy docker://docker.io/prom/prometheus:v2.18.1 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/prometheus:v2.18.1
