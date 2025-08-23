@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://node:20-slim docker://registry.cn-shanghai.aliyuncs.com/public_ef/node:20-slim
+        skopeo copy docker://nginx:stable-alpine docker://registry.cn-shanghai.aliyuncs.com/public_ef/nginx:stable-alpine
