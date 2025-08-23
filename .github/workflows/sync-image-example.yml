@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://ghcr.io/henrygd/beszel:0.12.3 docker://registry.cn-shanghai.aliyuncs.com/public_ef/beszel:0.12.3
+        skopeo copy docker://henrygd/beszel:0.12.3 docker://registry.cn-shanghai.aliyuncs.com/public_ef/beszel:0.12.3
