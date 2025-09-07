@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://gitea/act_runner:latest docker://registry.cn-shanghai.aliyuncs.com/public_ef/act_runner:latest
+        skopeo copy docker://catthehacker/ubuntu:js-latest docker://registry.cn-shanghai.aliyuncs.com/public_ef/ubuntu:js-latest
