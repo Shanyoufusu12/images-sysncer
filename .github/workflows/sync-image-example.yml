@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/mongo:4.2 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/mongo:4.2
+        skopeo copy docker://ghcr.io/conardli/easy-dataset docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/easy-dataset
