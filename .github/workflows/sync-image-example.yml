@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch arm64 docker://docker.io/apache/skywalking-ui:10.2.0  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/skywalking-ui:10.2.0_arm
+        skopeo copy --override-arch arm64 docker://docker.io/elasticsearch:8.14.3  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/elasticsearch:8.14.3_arm
