@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/jertel/elastalert2:latest  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/elastalert2:latest
+        skopeo copy docker://docker.io/willfarrell/autoheal:latest  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/autoheal:latest
