@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/bitnami/moodle:latest  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/bitnami_moodle:latest
+        skopeo copy docker://docker.io/python:3.9-slim  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/python:3.9-slim
