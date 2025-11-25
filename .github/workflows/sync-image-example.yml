@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch arm64 docker://docker.io/otel/opentelemetry-collector-contrib:0.85.0  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/opentelemetry-collector-contrib:arm-0.85.0
+        skopeo copy --override-arch arm64 docker://docker.io/otel/opentelemetry-collector-contrib:0.96.0  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/opentelemetry-collector-contrib:arm-0.96.0
