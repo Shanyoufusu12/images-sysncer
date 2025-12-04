@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch arm64 docker://docker.io/willfarrell/autoheal:latest  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/autoheal:arm-latest
+        skopeo copy docker://docker.io/alpine:3.18  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/alpine:3.18
