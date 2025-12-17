@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --override-arch arm64 docker://docker.io/python:3.11-slim  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/python:3.11-slim-arm
+        skopeo copy --override-arch arm64 docker://docker.io/ubuntu:22.04  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/ubuntu:22.04-arm
