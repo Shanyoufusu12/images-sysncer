@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/eclipse-temurin:17@sha256:e8d451f3b5aa6422c2b00bb913cb8d37a55a61934259109d945605c5651de9a6  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/eclipse-temurin:17@sha256:e8d451f3b5aa6422c2b00bb913cb8d37a55a61934259109d945605c5651de9a6
+        skopeo copy docker://docker.io/eclipse-temurin:17-jdk  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/eclipse-temurin:17-jdk
