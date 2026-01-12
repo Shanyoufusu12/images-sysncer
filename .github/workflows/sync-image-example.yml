@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://registry.k8s.io/descheduler/descheduler:v0.26.1  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/descheduler:v0.26.1
+        skopeo copy docker://registry.k8s.io/descheduler/descheduler:v0.29.0  docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/descheduler:v0.29.0
